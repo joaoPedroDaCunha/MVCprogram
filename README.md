@@ -11,7 +11,7 @@ O foco principal do projeto é a criação de um sistema de cadastro de funcion�
 
 - SQLite: Banco de dados leve e eficaz utilizado para armazenar as informações dos funcionários e dependentes, permitindo operações de CRUD (Create, Read, Update, Delete) de maneira simplificada.
 
-## Funcionalidades do Sistema:
+## Funcionalidades do Sistema
 
 - Cadastro de Funcionários
 - Cadastro de Dependentes
