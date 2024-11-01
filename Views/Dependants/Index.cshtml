@@ -7,7 +7,7 @@
 <h1>@ViewData["Title"]</h1>
 
 
-<a asp-action="Create"><button>New Dependants</button></a>
+<a asp-action="Create"><button style="border-radius: 5px;">New Dependants</button></a>
 <table class="table">
     <thead>
         <tr>
@@ -30,9 +30,9 @@
                 @Html.DisplayFor(modelItem => item.Parentage)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.ID"><button>Edit</button></a> |
-                <a asp-action="Details" asp-route-id="@item.ID"><button>Details</button></a> |
-                <a asp-action="Delete" asp-route-id="@item.ID"><button>Delete</button></a>
+                <a asp-action="Edit" asp-route-id="@item.ID"><button style="border-radius: 5px;">Edit</button></a> |
+                <a asp-action="Details" asp-route-id="@item.ID"><button style="border-radius: 5px;">Details</button></a> |
+                <a asp-action="Delete" asp-route-id="@item.ID"><button style="border-radius: 5px;">Delete</button></a>
             </td>
         </tr>
 }
