@@ -1,14 +1,15 @@
 @model IEnumerable<Project.Models.Employee>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Employee";
 }
 
-<h1>Index</h1>
-
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+<h1>@ViewData["Title"]</h1>
+<a asp-action="Create" style="text-decoration: none; color: inherit;">
+    <button>
+        New Employee
+    </button>
+</a>
 <table class="table">
     <thead>
         <tr>
